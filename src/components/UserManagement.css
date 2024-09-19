@@ -1,0 +1,143 @@
+
+
+.user-management {
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  width: 60%;
+  max-width: 1000px; 
+}
+
+
+.user-form {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 20px;
+}
+
+.user-form input, .user-form button {
+  padding: 8px 15px; 
+  margin: 0 10px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.user-form input {
+  flex-grow: 1; 
+}
+
+.user-form .btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold; 
+}
+
+.user-form .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+.view-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.view-buttons button {
+  padding: 10px 20px; 
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px; 
+  border-radius: 4px;
+}
+
+.view-buttons button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.view-buttons button:not(.active) {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+  padding: 10px 15px; 
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+.btn-edit, .btn-delete, .btn-save, .btn-cancel {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: #17a2b8;
+  color: white;
+  margin-right: 8px; 
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-save {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-cancel {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-edit:hover,
+.btn-delete:hover,
+.btn-save:hover,
+.btn-cancel:hover {
+  opacity: 0.9;
+}
+
+
+.btn-restore {
+  padding: 6px 12px;  
+  font-size: 14px;    
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #28a745; 
+  color: white;              
+}
+
+.btn-restore:hover {
+  opacity: 0.9; 
+}
